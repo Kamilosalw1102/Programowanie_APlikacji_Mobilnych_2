@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Persistence</ID>
+  <OriginalElement>JavaeeElement:/bcdebd60/entityManagerFactory/Zad1/jpa/JPA/PersistenceModel</OriginalElement>
+  <nodes>
+    <node x="285.0" y="0.0">AbstractPersistable#jar://C:/Users/RADq/.m2/repository/org/springframework/data/spring-data-jpa/2.4.2/spring-data-jpa-2.4.2.jar!/org/springframework/data/jpa/domain/AbstractPersistable.class</node>
+    <node x="29.5" y="0.0">Task#file://D:/Pulpit-Skróty/Studia/V SEMESTR/Aplikacje internetowe/Zad1/src/main/java/stm/stm/entity/Task.java</node>
+    <node x="0.0" y="213.0">User#file://D:/Pulpit-Skróty/Studia/V SEMESTR/Aplikacje internetowe/Zad1/src/main/java/stm/stm/entity/User.java</node>
+    <node x="470.0" y="12.0">null#null</node>
+    <node x="340.25" y="103.0">AbstractAuditable#jar://C:/Users/RADq/.m2/repository/org/springframework/data/spring-data-jpa/2.4.2/spring-data-jpa-2.4.2.jar!/org/springframework/data/jpa/domain/AbstractAuditable.class</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="AbstractAuditable#jar://C:/Users/RADq/.m2/repository/org/springframework/data/spring-data-jpa/2.4.2/spring-data-jpa-2.4.2.jar!/org/springframework/data/jpa/domain/AbstractAuditable.class" target="null#null">
+      <point x="41.0" y="-37.5" />
+      <point x="463.25" y="78.0" />
+      <point x="477.0" y="78.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="User#file://D:/Pulpit-Skróty/Studia/V SEMESTR/Aplikacje internetowe/Zad1/src/main/java/stm/stm/entity/User.java" target="Task#file://D:/Pulpit-Skróty/Studia/V SEMESTR/Aplikacje internetowe/Zad1/src/main/java/stm/stm/entity/Task.java">
+      <point x="0.0" y="-92.5" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="AbstractAuditable#jar://C:/Users/RADq/.m2/repository/org/springframework/data/spring-data-jpa/2.4.2/spring-data-jpa-2.4.2.jar!/org/springframework/data/jpa/domain/AbstractAuditable.class" target="AbstractPersistable#jar://C:/Users/RADq/.m2/repository/org/springframework/data/spring-data-jpa/2.4.2/spring-data-jpa-2.4.2.jar!/org/springframework/data/jpa/domain/AbstractPersistable.class">
+      <point x="-41.0" y="-37.5" />
+      <point x="381.25" y="78.0" />
+      <point x="367.5" y="78.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="252.5" y="199.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Embeddables</Category>
+    <Category>Superclasses</Category>
+  </Categories>
+</Diagram>
+
